@@ -1,0 +1,10 @@
+com\ein\agriculture_predictor\service\UserService.class
+com\ein\agriculture_predictor\AgriculturePredictorApplication.class
+com\ein\agriculture_predictor\controller\UserController.class
+com\ein\agriculture_predictor\config\DbConfig.class
+com\ein\agriculture_predictor\controller\interfaces\IUserController.class
+com\ein\agriculture_predictor\controller\HelloWorldController.class
+com\ein\agriculture_predictor\service\interfaces\IUserService.class
+com\ein\agriculture_predictor\repository\UserRepository.class
+com\ein\agriculture_predictor\model\User.class
+com\ein\agriculture_predictor\AgriculturePredictorApplication$1.class

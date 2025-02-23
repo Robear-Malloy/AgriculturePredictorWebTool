@@ -1,0 +1,3 @@
+com\ein\agriculture_predictor\AgriculturePredictorApplicationTests.class
+com\ein\agriculture_predictor\unit\controller\UserControllerTest.class
+com\ein\agriculture_predictor\unit\service\UserServiceTests.class
