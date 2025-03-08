@@ -26,6 +26,6 @@ export const Tableau = () => {
   }, []); 
 
   return (
-    <div ref={ref} style={{ width: '70%', margin: 'auto' }}></div>
+    <div id='tableau' className='tableau-container' ref={ref} style={{ width: '70%', margin: 'auto' }}></div>
   );
 };
