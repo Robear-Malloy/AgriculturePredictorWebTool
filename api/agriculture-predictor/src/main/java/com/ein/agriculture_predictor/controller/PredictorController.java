@@ -23,7 +23,12 @@ public class PredictorController {
     @PostMapping("/gallons-needed")
     public ResponseEntity<PredictionResult> getGallonsNeeded(@RequestBody GallonsNeededRequest request) {
         try {
-            logger.info("Received prediction request: {}", request);
+            logger.info("Received prediction request:\n");
+            logger.info("Crop: {}\n", request.getCrop());
+            logger.info("Continent: {}\n", request.getContinent());
+            logger.info("Region: {}\n", request.getRegion());
+            logger.info("Humidity: {}\n", request.getHumidity());
+            logger.info("Temperature: {}\n", request.getTemperature());
             float gallonsPerAcre = predictionService.getGallonsNeeded(request);
             PredictionResult result = new PredictionResult(gallonsPerAcre);
             return ResponseEntity.ok(result);

@@ -71,7 +71,7 @@ public class PredictionService {
             throw new IllegalArgumentException("Unknown crop: " + request.getCrop());
         }
 
-        float soilTempCoefficient = getCoefficient(request.getSoilTemperature(), soilTempCoefficients);
+        float soilTempCoefficient = getCoefficient(request.getTemperature(), soilTempCoefficients);
         float humidityCoefficient = getCoefficient(request.getHumidity(), humidityCoefficients);
 
         return soilTempCoefficient * humidityCoefficient * cropGallons;

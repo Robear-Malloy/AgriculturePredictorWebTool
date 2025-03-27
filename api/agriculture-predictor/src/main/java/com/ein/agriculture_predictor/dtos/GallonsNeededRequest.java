@@ -4,16 +4,16 @@ public class GallonsNeededRequest {
     private String crop;
     private String region;
     private String continent;
-    private Float soilTemperature;
+    private Float temperature;
     private Float humidity;
 
     public GallonsNeededRequest() {}
 
-    public GallonsNeededRequest(String crop, String region, String continent, Float soilTemperature, Float humidity) {
+    public GallonsNeededRequest(String crop, String region, String continent, Float temperature, Float humidity) {
         this.crop = crop;
         this.continent = continent;
         this.region = region;
-        this.soilTemperature = soilTemperature;
+        this.temperature = temperature;
         this.humidity = humidity;
     }
 
@@ -41,12 +41,12 @@ public class GallonsNeededRequest {
         this.continent = continent;
     }
 
-    public Float getSoilTemperature() {
-        return soilTemperature;
+    public Float getTemperature() {
+        return temperature;
     }
 
-    public void setSoilTemperature(Float soilTemperature) {
-        this.soilTemperature = soilTemperature;
+    public void setTemperature(Float temperature) {
+        this.temperature = temperature;
     }
 
     public Float getHumidity() {
