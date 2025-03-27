@@ -1,5 +1,4 @@
 import './MainPage.css';
-import { Tableau } from '../../components/Tableau/Tableau.js';
 import { Header } from '../../components/Header/Header.js';
 import { Testimonials } from '../../components/Testimonials/Testimonials.js';
 import { PredictionTool } from '../../components/PredictionTool/PredictionTool.js';
@@ -14,7 +13,6 @@ const MainPage = () => {
       <Header />
       <Mission />
       <PredictionTool />
-      <Tableau />
       <Services />
       <Testimonials />
       <Contact />

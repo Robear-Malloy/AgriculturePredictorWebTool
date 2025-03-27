@@ -12,7 +12,6 @@ export const Header = () => {
       <nav className="nav-links">
         <a href="#mission">Mission</a>
         <a href="#prediction-tool">Prediction Tool</a>
-        <a href="#tableau">Tableau</a>
         <a href="#services">Services</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
