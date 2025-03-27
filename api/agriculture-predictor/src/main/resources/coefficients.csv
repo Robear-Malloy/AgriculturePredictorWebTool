@@ -1,0 +1,10 @@
+Type,Min,Max,Value
+SoilTemperature,41,45,0.75
+SoilTemperature,46,50,0.8
+SoilTemperature,51,55,0.85
+Humidity,0,10,1.25
+Humidity,11,20,1.2
+Humidity,21,30,1.15
+Crop,Corn,1000
+Crop,Potatoes,800
+Crop,Rice,1500
