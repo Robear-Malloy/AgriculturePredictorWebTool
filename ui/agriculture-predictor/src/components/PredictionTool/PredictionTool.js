@@ -115,7 +115,7 @@ export const PredictionTool = () => {
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="temperature" className="form-label">Temperature (in celcius):</label>
+          <label htmlFor="temperature" className="form-label">Soil Temperature (in celsius):</label>
           <input
             type="number"
             id="temperature"
